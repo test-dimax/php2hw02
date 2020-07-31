@@ -1,5 +1,7 @@
 <h1>Новости</h1>
 
+<a href="/admin.php">Панель администратора</a>
+
 <?php foreach ($this->data['news'] as $article) { ?>
     <article>
         <h2>
